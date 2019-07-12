@@ -2,14 +2,14 @@
 class Taskmaster < Formula
   desc "Taskmaster is a better way to manage your tasks."
   homepage "https://github.com/SimantovYousoufov/taskmaster"
-  version "0.1.0"
+  version "0.1.2"
 
   if OS.mac?
-    url "https://github.com/SimantovYousoufov/taskmaster/releases/download/v0.1.0/taskmaster_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "358a360e5cf844b5ea9d8721e1ac81f3c380e1b2b6892a6b4819cfc0cc3b1934"
+    url "https://github.com/SimantovYousoufov/taskmaster/releases/download/v0.1.2/taskmaster_0.1.2_Darwin_x86_64.tar.gz"
+    sha256 "433c45747610849d9e5c143f4edcdab2af847e7c61c0fb6829a17719d5b18e64"
   elsif OS.linux?
-    url "https://github.com/SimantovYousoufov/taskmaster/releases/download/v0.1.0/taskmaster_0.1.0_Linux_x86_64.tar.gz"
-    sha256 "81d9195e9ccf769458232e6d68f1ff56de6c9351947b360807f63428f81ec6f3"
+    url "https://github.com/SimantovYousoufov/taskmaster/releases/download/v0.1.2/taskmaster_0.1.2_Linux_x86_64.tar.gz"
+    sha256 "bc5bd1e34e139313238ef14b21bd00a700cec7731da747e7c07351405987ae09"
   end
 
   def install
